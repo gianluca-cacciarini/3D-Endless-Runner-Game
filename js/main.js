@@ -19,17 +19,10 @@ window.onload = async () => {
     });
 
     // *** Set up lights ***
-    // The ambient light is shining from every direction, we use it to have a base color
-    // for our objects
     const ambientLight = new THREE.AmbientLight(0xffffff, 0.6);
     scene.add(ambientLight);
 
     const dirLight = new THREE.DirectionalLight(0xffffff, 0.5);
-    /* With the position we define the direction of these light rays
-    from all the parallel rays we define one, this specific light ray will
-    shine from the position we define to the 0,0,0 coordinate. The rest will
-    be in parallel . By setting the position of the light we determine which side
-    of our objects will be brightest and which ones stay in the dark */
     dirLight.position.set(0, 100, -10);
     scene.add(dirLight);
     

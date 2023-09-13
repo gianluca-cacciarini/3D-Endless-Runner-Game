@@ -516,6 +516,7 @@ class Game {
       //creation of the car that we control
       this.mainCar = m1.scene;
       // resizing and position
+
       this.mainCar.rotation.y = Math.PI;
       this.mainCar.scale.set(1.2, 1.2, 1.2);
       this.mainCar.position.set(0.5, 0.065, -2);
