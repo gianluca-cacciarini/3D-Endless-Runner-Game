@@ -14,11 +14,11 @@ Here are your controls:
 
 # 🎮 Play
 
-🚀 Ready to dive in? [**PLAY NOW**]()
+🚀 Ready to dive in? [**PLAY NOW**](https://gianluca-cacciarini.github.io/3D-Endless-Runner-Game/)
 
 # 📖 Report
 
-Want to know more? Check out our [**REPORT**](https://github.com/SapienzaInteractiveGraphicsCourse/final-project-desert-dash/blob/main/Desert_Dash_report.pdf)
+Want to know more? Check out our [**REPORT**](https://github.com/gianluca-cacciarini/3D-Endless-Runner-Game/blob/main/Desert_Dash_report.pdf)
 
 ## 📝 Author
 
