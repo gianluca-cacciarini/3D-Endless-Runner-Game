@@ -1,7 +1,7 @@
 # Desert Dash
 <br />
 <p align="center">
-    <img src="src/images/logo.PNG" alt="Logo" height="200">
+    <img src="DesertDashCode/src/images/logo.PNG" alt="Logo" height="200">
 </p>
 <br />
 
