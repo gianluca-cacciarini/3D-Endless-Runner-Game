@@ -303,7 +303,6 @@ class Game {
     if (isIntersecting && this.vulnerable != false) {
         let heartRemove;
         this.vulnerable = false;
-        //console.log("Le bounding boxes si sovrappongono (collisione).");
         heartRemove = document.getElementById("h"+this.health);
         this.health-=1;
         heartRemove.remove();
@@ -521,11 +520,6 @@ class Game {
       this.mainCar.scale.set(1.2, 1.2, 1.2);
       this.mainCar.position.set(0.5, 0.065, -2);
 
-
-      /* siccome il modello importato aveva come pivot delle ruote un pivot univoco per tutte e 4 le ruote
-      non mi permetteva di effettuare la rotazione lungo l'asse Y pertanto ho dovuto creare
-      un nuovo gruppo dove inserire le ruote e poi creare nuove ruote */
-
       const utilityGroup = new THREE.Group();
       utilityGroup.add(this.mainCar.getObjectByName('Wheel'));
 
@@ -672,11 +666,11 @@ class Game {
 
   _getMultipleInRange(base, min, max) {
     const range = max - min;
-    const offset = min % base === 0 ? 0 : base - (min % base); // Calcola l'offset se il minimo non è già un multiplo di base
+    const offset = min % base === 0 ? 0 : base - (min % base);
     const validMin = min + offset;
   
-    const numMultiplesInRange = Math.floor((range + 1) / base); // Calcola il numero di multipli di base nel range
-    const randomMultipleIndex = Math.floor(Math.random() * numMultiplesInRange); // Scegli un indice casuale
+    const numMultiplesInRange = Math.floor((range + 1) / base);
+    const randomMultipleIndex = Math.floor(Math.random() * numMultiplesInRange);
   
     return validMin + randomMultipleIndex * base;
   }
