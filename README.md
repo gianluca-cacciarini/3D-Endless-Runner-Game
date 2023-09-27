@@ -5,6 +5,11 @@
 </p>
 <br />
 
+![Version](https://img.shields.io/badge/Version-0.1.0-brightgreen)
+![Language](https://img.shields.io/badge/Language-javascript-blue)
+![Library](https://img.shields.io/badge/Library-threejs-yellow)
+![Library](https://img.shields.io/badge/Library-tweenjs-orange)
+
 # 🕹️ How to Play
 
 Here are your controls:
